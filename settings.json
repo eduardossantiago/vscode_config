@@ -1,0 +1,30 @@
+{
+    "update.showReleaseNotes": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "on"
+    },
+    "workbench.colorTheme": "Kimbie Dark",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
