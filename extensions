@@ -1,0 +1,40 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v173)
+"   /Users/carlossantiago/.vscode/extensions
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+andenetalexander.vim-cheatsheet-0.0.1/
+asvetliakov.vscode-neovim-1.18.13/
+dart-code.dart-code-3.98.1/
+dart-code.flutter-3.98.0/
+donjayamanne.python-environment-manager-1.2.4/
+ecmel.vscode-html-css-2.0.10/
+esbenp.prettier-vscode-11.0.0/
+fwcd.kotlin-0.2.35/
+harryhopkinson.vim-theme-1.1.8/
+k--kato.intellij-idea-keybindings-1.7.2/
+kevinrose.vsc-python-indent-1.18.0/
+mathiasfrohlich.kotlin-1.7.1/
+mechatroner.rainbow-csv-3.12.0/
+ms-python.debugpy-2024.12.0-darwin-arm64/
+ms-python.python-2024.16.1-darwin-arm64/
+ms-python.vscode-pylance-2024.10.1/
+ms-vscode.vscode-typescript-next-5.7.20241022/
+oracle.oracle-java-23.0.0/
+pucelle.vscode-css-navigation-1.15.0/
+redhat.java-1.35.1-darwin-arm64/
+ritwickdey.liveserver-5.7.9/
+visualstudioexptteam.intellicode-api-usage-examples-0.2.8/
+visualstudioexptteam.vscodeintellicode-1.3.1/
+vscjava.vscode-gradle-3.16.4/
+vscjava.vscode-java-debug-0.58.0/
+vscjava.vscode-java-dependency-0.24.0/
+vscjava.vscode-java-pack-0.29.0/
+vscjava.vscode-java-test-0.42.0/
+vscjava.vscode-maven-0.44.0/
+vscodevim.vim-1.28.1/
+extensions.json
