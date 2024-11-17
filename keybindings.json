@@ -1,0 +1,104 @@
+// Place your key bindings in this file to override the defaults
+[
+  // auto-complete
+  {
+    "key": "shift+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  // act as IntelliJ, insert variable
+  {
+    "key": "alt+cmd+v",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor.extract.constant",
+      "preferred": true,
+      "apply": "ifSingle"
+    }
+  },
+  // navigate in/out file explorer
+  {
+    "key": "ctrl+g n", // enter file explorer
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "q", // exit file explorer
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletFocus"
+  },
+  // navigate on sub-menus using ctrl+(k/j) like auto-complete, code actions
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
+  },
+  {
+    "key": "ctrl+j",
+    "when": "codeActionMenuVisible",
+    "command": "selectNextCodeAction"
+  },
+  // open files
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+    "when": "neovim.mode == 'normal' && !suggestWidgetVisible && !codeActionMenuVisible"
+  },
+  {
+    // "key": "cmd+p",
+    // "command": "-workbench.action.quickOpen"
+  },
+  // Focus on terminal
+  {
+    "key": "ctrl+g t",
+    "command": "terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+g t",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  //Remove VSCode shortcut for Ctrl+r (I prefer to use Vim Shortcut)
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  //Remove IntelliJ short for Ctrl+r (I prefer to use Vim Shortcut)
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.tasks.reRunTask",
+    "when": "taskCommandsRegistered && !terminalFocus"
+  },
+  // On the find file bar, navigate trough options using ctrl+n and ctrl+p, as in neovim telescope
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },{
+    "key": "ctrl+p" ,
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-workbench.action.debug.run",
+    "when": "debuggersAvailable && !inDebugMode && !terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closePanel",
+    "when": "terminalFocus"
+  }
+  
+]
